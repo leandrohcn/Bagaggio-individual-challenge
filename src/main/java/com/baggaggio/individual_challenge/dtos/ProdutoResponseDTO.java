@@ -1,6 +1,6 @@
-package baggagio.com.individual_challenge.dtos;
+package com.baggaggio.individual_challenge.dtos;
 
-import baggagio.com.individual_challenge.entities.Produto;
+import com.baggaggio.individual_challenge.entities.Produto;
 import lombok.Data;
 
 //DTO destinado para resposta da requisição

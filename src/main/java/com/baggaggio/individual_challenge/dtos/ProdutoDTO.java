@@ -1,4 +1,4 @@
-package baggagio.com.individual_challenge.dtos;
+package com.baggaggio.individual_challenge.dtos;
 
 import lombok.Data;
 

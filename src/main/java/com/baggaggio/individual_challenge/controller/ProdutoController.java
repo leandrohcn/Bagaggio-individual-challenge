@@ -1,9 +1,9 @@
-package baggagio.com.individual_challenge.controller;
+package com.baggaggio.individual_challenge.controller;
 
-import baggagio.com.individual_challenge.dtos.ProdutoDTO;
-import baggagio.com.individual_challenge.dtos.ProdutoResponseDTO;
-import baggagio.com.individual_challenge.entities.Produto;
-import baggagio.com.individual_challenge.services.ProdutoService;
+import com.baggaggio.individual_challenge.dtos.ProdutoDTO;
+import com.baggaggio.individual_challenge.dtos.ProdutoResponseDTO;
+import com.baggaggio.individual_challenge.entities.Produto;
+import com.baggaggio.individual_challenge.services.ProdutoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -46,7 +46,7 @@ public class ProdutoController {
     @DeleteMapping("{id}")
     public ResponseEntity<Void> deletaProduto(@PathVariable Integer id) {
         produtoService.excluirProduto(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok().build();
     }
 
 }
