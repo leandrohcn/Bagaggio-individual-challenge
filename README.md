@@ -1,5 +1,6 @@
 # INDIVIDUAL-CHALLENGE
 Foram utilizados: (JAVA, SpringBoot, Docker e PostgreSQL)
+Além de Postman para lidar e testar as requisições.
 
 ## Pré-requisitos
 
