@@ -1,7 +1,9 @@
 # INDIVIDUAL-CHALLENGE
-Foram utilizados: (JAVA, SpringBoot, Docker e PostgreSQL)
-Além de Postman para lidar e testar as requisições.
+Foram utilizados: (JAVA, SpringBoot, Docker e PostgreSQL).
 
+SWAGGER para documentar a api: https://app.swaggerhub.com/apis/unirio-c08/Baggaggio-individual-challenge/1.0.0#/
+
+Além de Postman para lidar e testar as requisições.
 ## Pré-requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
