@@ -50,7 +50,7 @@ A API estará disponível em seu navegador ou cliente de API (como o Postman) no
 Aqui estão alguns exemplos de endpoints que você pode testar:
 
 * **`GET /produtos`**: Lista todos os produtos.
-* **`GET /produtos?categoria=EXEMPLO`**Lista todos os produtos de uma categoria especifica (Enum de categoria contem: MALAS, MOCHILAS, BOLSAS, ESCOLAR, TERMICOS, CARTEIRAS, PASTAS, ACESSORIOS). Precisa ser escrito tudo em maiusculo.
+* **`GET /produtos?categoria=EXEMPLO`**: Lista todos os produtos de uma categoria especifica (Enum de categoria contem: MALAS, MOCHILAS, BOLSAS, ESCOLAR, TERMICOS, CARTEIRAS, PASTAS, ACESSORIOS). Precisa ser escrito tudo em maiusculo.
 * **`GET /produtos/{id}`**: Busca um produto específico por ID.
 * **`POST /produtos`**: Cria um novo produto. (Verifique o corpo JSON necessário).
 * **`DELETE/produtos/{id}`**: Exclui um produto pelo ID.
