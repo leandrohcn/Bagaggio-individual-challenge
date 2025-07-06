@@ -56,7 +56,11 @@ cp .env.example .env
 ```powershell
 copy .env.example .env
 ```
-Depois de criar o arquivo `.env`, você pode alterar os valores dentro dele se desejar.
+**b) Entenda o que o arquivo faz:**
+
+* O arquivo `.env` que você acabou de criar define o usuário, a senha e o nome do banco de dados que serão usados pelo contêiner do PostgreSQL.
+* O arquivo `application.properties` da aplicação Spring Boot está configurado para ler essas mesmas variáveis do ambiente, garantindo que tudo se conecte corretamente.
+* Os valores padrão no `.env.example` já são adequados para rodar o projeto localmente. Você não precisa editar o arquivo `.env` após criá-lo, a menos que queira usar credenciais diferentes por algum motivo.
 
 **3. Subir os Contêineres com Docker Compose**
 
