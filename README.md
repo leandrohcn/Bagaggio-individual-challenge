@@ -14,11 +14,35 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 
 Siga os passos abaixo para ter a aplicação rodando localmente em sua máquina.
 
-**1. Clonar o Repositório**
+Escolha uma pasta em seu computador onde deseja salvar o projeto (por exemplo, `C:\dev\`). Navegue até ela e clone o repositório.
 
-```bash
+```powershell
+# Exemplo navegando para a pasta C:\dev
+cd C:\dev\
+
+# Clone o projeto do GitHub
 git clone https://github.com/leandrohcn/Baggaggio-individual-challenge.git
 ```
+Este comando criará uma pasta chamada `Baggaggio-individual-challenge` com todo o código do projeto dentro dela.
+
+### Entre no Ambiente WSL
+
+Agora que o código está na sua máquina, vamos entrar no ambiente Linux (WSL) para executar os comandos do Docker. No mesmo terminal, digite:
+
+```powershell
+wsl
+```
+Seu prompt de comando mudará, indicando que você agora está dentro do Linux (por exemplo, de `PS C:\...>` para `seu_usuario@NOME-PC:/mnt/c/...$`).
+
+### Navegue até a Pasta do Projeto (Dentro do WSL)
+
+Você precisa navegar para a pasta do projeto que acabou de clonar. O WSL acessa seus drives do Windows através do caminho `/mnt/`.
+
+```bash
+# Exemplo acessando a pasta C:\dev\Baggaggio-individual-challenge que clonamos antes
+cd /mnt/c/dev/Baggaggio-individual-challenge/
+```
+**Dica:** Use a tecla `Tab` para autocompletar os nomes das pastas e evitar erros de digitação.
 
 **2. Configurar Variáveis de Ambiente**
 
@@ -32,7 +56,11 @@ cp .env.example .env
 ```powershell
 copy .env.example .env
 ```
-Depois de criar o arquivo `.env`, você pode alterar os valores dentro dele se desejar.
+**b) Entenda o que o arquivo faz:**
+
+* O arquivo `.env` que você acabou de criar define o usuário, a senha e o nome do banco de dados que serão usados pelo contêiner do PostgreSQL.
+* O arquivo `application.properties` da aplicação Spring Boot está configurado para ler essas mesmas variáveis do ambiente, garantindo que tudo se conecte corretamente.
+* Os valores padrão no `.env.example` já são adequados para rodar o projeto localmente. Você não precisa editar o arquivo `.env` após criá-lo, a menos que queira usar credenciais diferentes por algum motivo.
 
 **3. Subir os Contêineres com Docker Compose**
 
