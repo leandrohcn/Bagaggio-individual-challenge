@@ -90,9 +90,12 @@ public class ProdutoService {
         }
     }
 
-    //Logica que garante a não perda de dados ao atualizar um produto com o metodo PUT
+    /*
+        Logica que garante que eu possa atualizar um ou mais dados do produto, sem que os outros campos fiquem nulos ou em branco
+        caso eu passe somente um ou mais dados, que não todos, ou até mesmo deixe em branco.
+     */
     private void atualizaDadosDoProduto(Produto produto, AtualizaProdutoDTO atualizaProduto) {
-        if (atualizaProduto.getDescricao() != null) {
+        if (!atualizaProduto.getDescricao().isBlank()) {
             produto.setDescricao(atualizaProduto.getDescricao());
         }
         if (atualizaProduto.getNome() != null) {
