@@ -1,7 +1,7 @@
-package com.baggaggio.individual_challenge.repositories;
+package com.bagaggio.individual_challenge.repositories;
 
-import com.baggaggio.individual_challenge.entities.Categoria;
-import com.baggaggio.individual_challenge.entities.Produto;
+import com.bagaggio.individual_challenge.entities.Categoria;
+import com.bagaggio.individual_challenge.entities.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

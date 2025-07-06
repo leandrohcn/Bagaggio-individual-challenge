@@ -1,4 +1,4 @@
-package com.baggaggio.individual_challenge;
+package com.bagaggio.individual_challenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,11 +1,11 @@
-package com.baggaggio.individual_challenge.controller;
+package com.bagaggio.individual_challenge.controller;
 
-import com.baggaggio.individual_challenge.dtos.AtualizaProdutoDTO;
-import com.baggaggio.individual_challenge.dtos.ProdutoDTO;
-import com.baggaggio.individual_challenge.dtos.ProdutoResponseDTO;
-import com.baggaggio.individual_challenge.entities.Categoria;
-import com.baggaggio.individual_challenge.entities.Produto;
-import com.baggaggio.individual_challenge.services.ProdutoService;
+import com.bagaggio.individual_challenge.dtos.AtualizaProdutoDTO;
+import com.bagaggio.individual_challenge.dtos.ProdutoDTO;
+import com.bagaggio.individual_challenge.dtos.ProdutoResponseDTO;
+import com.bagaggio.individual_challenge.entities.Categoria;
+import com.bagaggio.individual_challenge.entities.Produto;
+import com.bagaggio.individual_challenge.services.ProdutoService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

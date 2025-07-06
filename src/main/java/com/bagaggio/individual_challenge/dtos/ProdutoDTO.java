@@ -1,6 +1,6 @@
-package com.baggaggio.individual_challenge.dtos;
+package com.bagaggio.individual_challenge.dtos;
 
-import com.baggaggio.individual_challenge.entities.Categoria;
+import com.bagaggio.individual_challenge.entities.Categoria;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;

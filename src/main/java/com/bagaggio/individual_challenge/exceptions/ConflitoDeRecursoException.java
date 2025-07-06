@@ -1,4 +1,4 @@
-package com.baggaggio.individual_challenge.exceptions;
+package com.bagaggio.individual_challenge.exceptions;
 
 public class ConflitoDeRecursoException extends RuntimeException {
     public ConflitoDeRecursoException(String message) {

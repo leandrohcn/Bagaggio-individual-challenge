@@ -1,13 +1,13 @@
-package com.baggaggio.individual_challenge.services;
+package com.bagaggio.individual_challenge.services;
 
-import com.baggaggio.individual_challenge.dtos.AtualizaProdutoDTO;
-import com.baggaggio.individual_challenge.dtos.ProdutoDTO;
-import com.baggaggio.individual_challenge.dtos.ProdutoResponseDTO;
-import com.baggaggio.individual_challenge.entities.Categoria;
-import com.baggaggio.individual_challenge.entities.Produto;
-import com.baggaggio.individual_challenge.repositories.ProdutoRepository;
-import com.baggaggio.individual_challenge.exceptions.ConflitoDeRecursoException;
-import com.baggaggio.individual_challenge.exceptions.RecursoNaoEncontradoException;
+import com.bagaggio.individual_challenge.dtos.AtualizaProdutoDTO;
+import com.bagaggio.individual_challenge.dtos.ProdutoDTO;
+import com.bagaggio.individual_challenge.dtos.ProdutoResponseDTO;
+import com.bagaggio.individual_challenge.entities.Categoria;
+import com.bagaggio.individual_challenge.entities.Produto;
+import com.bagaggio.individual_challenge.repositories.ProdutoRepository;
+import com.bagaggio.individual_challenge.exceptions.ConflitoDeRecursoException;
+import com.bagaggio.individual_challenge.exceptions.RecursoNaoEncontradoException;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

@@ -1,12 +1,12 @@
-package com.baggaggio.individual_challenge.ControllerTest;
+package com.bagaggio.individual_challenge.ControllerTest;
 
-import com.baggaggio.individual_challenge.controller.ProdutoController;
-import com.baggaggio.individual_challenge.dtos.AtualizaProdutoDTO;
-import com.baggaggio.individual_challenge.dtos.ProdutoDTO;
-import com.baggaggio.individual_challenge.dtos.ProdutoResponseDTO;
-import com.baggaggio.individual_challenge.entities.Categoria;
-import com.baggaggio.individual_challenge.entities.Produto;
-import com.baggaggio.individual_challenge.services.ProdutoService;
+import com.bagaggio.individual_challenge.controller.ProdutoController;
+import com.bagaggio.individual_challenge.dtos.AtualizaProdutoDTO;
+import com.bagaggio.individual_challenge.dtos.ProdutoDTO;
+import com.bagaggio.individual_challenge.dtos.ProdutoResponseDTO;
+import com.bagaggio.individual_challenge.entities.Categoria;
+import com.bagaggio.individual_challenge.entities.Produto;
+import com.bagaggio.individual_challenge.services.ProdutoService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

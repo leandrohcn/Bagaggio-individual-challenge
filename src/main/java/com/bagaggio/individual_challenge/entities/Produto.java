@@ -1,4 +1,4 @@
-package com.baggaggio.individual_challenge.entities;
+package com.bagaggio.individual_challenge.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

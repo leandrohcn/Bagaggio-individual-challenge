@@ -1,4 +1,4 @@
-package com.baggaggio.individual_challenge.exceptions;
+package com.bagaggio.individual_challenge.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

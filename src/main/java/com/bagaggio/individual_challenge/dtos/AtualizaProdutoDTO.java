@@ -1,6 +1,6 @@
-package com.baggaggio.individual_challenge.dtos;
+package com.bagaggio.individual_challenge.dtos;
 
-import com.baggaggio.individual_challenge.entities.Categoria;
+import com.bagaggio.individual_challenge.entities.Categoria;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.Size;
 import lombok.Data;

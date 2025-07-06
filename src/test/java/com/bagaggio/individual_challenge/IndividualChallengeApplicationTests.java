@@ -1,4 +1,4 @@
-package com.baggaggio.individual_challenge;
+package com.bagaggio.individual_challenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
