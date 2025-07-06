@@ -8,24 +8,28 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.Data;
 
-//DTO para criação e atualização de produtos
+//DTO para criação de produtos
 @Data
 @Schema(description = "Representa dados que vão ser passados no corpo da requisição")
 public class ProdutoDTO {
     @JsonProperty(required = true)
-    @NotBlank
+    @NotBlank(message = "Nome é obrigatorio")
     private String nome;
+
     @JsonProperty(required = true)
-    @NotBlank
+    @NotBlank(message = "Descrição nao pode ser vazia")
     private String descricao;
+
     @JsonProperty(required = true)
     @NotNull(message = "O preço não pode ser null.")
     @Positive(message = "O preço deve ser um valor positivo.")
     private Float preco;
+
     @JsonProperty(required = true)
     @NotNull(message = "A quantidade não pode ser null.")
     @Positive(message = "Quantidade deve ser um valor positivo.")
     private Integer quantidade;
+
     @JsonProperty(required = true)
     @NotNull(message = "Categoria não pode ser null.")
     private Categoria categoria;
