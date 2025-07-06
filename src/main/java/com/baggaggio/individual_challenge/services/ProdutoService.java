@@ -90,7 +90,7 @@ public class ProdutoService {
         }
     }
 
-    //Logica que garante a não perda de dados ao atualizar um produto com o  metodo PUT
+    //Logica que garante a não perda de dados ao atualizar um produto com o metodo PUT
     private void atualizaDadosDoProduto(Produto produto, AtualizaProdutoDTO atualizaProduto) {
         if (atualizaProduto.getDescricao() != null) {
             produto.setDescricao(atualizaProduto.getDescricao());
