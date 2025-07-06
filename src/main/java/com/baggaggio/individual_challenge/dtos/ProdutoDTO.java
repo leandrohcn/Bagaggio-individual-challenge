@@ -8,7 +8,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.Data;
 
-//DTO para criação e atualização de produtos
+//DTO para criação de produtos
 @Data
 @Schema(description = "Representa dados que vão ser passados no corpo da requisição")
 public class ProdutoDTO {
