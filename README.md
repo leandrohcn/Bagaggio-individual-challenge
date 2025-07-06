@@ -1,5 +1,5 @@
 # INDIVIDUAL-CHALLENGE
-Foram utilizados: (JAVA, SpringBoot, Docker e PostgreSQL).
+Foram utilizados: (JAVA 17, SpringBoot 3.5.3, Docker e PostgreSQL).
 
 SWAGGER para documentar a api: https://app.swaggerhub.com/apis/unirio-c08/Baggaggio-individual-challenge/1.0.0#/
 
@@ -58,6 +58,12 @@ Aqui estão alguns exemplos de endpoints que você pode testar:
 * **`POST /produtos`**: Cria um novo produto. (Verifique o corpo JSON necessário).
 * **`DELETE/produtos/{id}`**: Exclui um produto pelo ID.
 * **`PUT/produtos/{id}`**: Atualiza/Altera dados de um produto pelo ID.
+
+## Testes Unitarios para os endpoints (caminhos felizes e tristes)
+Para visualizar os testes unitarios, vá na IDE de sua escolha, abra o projeto e siga o caminho **`src/test/java/com/baggaggio/individual_challenge/ControllerTest/ProdutoTest.java`**
+
+Caso os testes nao estejam rodando por conta de algum erro, tente mudar na application.properties o **`"spring.datasource.url=jdbc:postgresql://localhost:5432/baggaggio"`**, para exatamente como está aqui.
+
 ## Como Parar a Aplicação
 
 Para parar e remover os contêineres, pressione `Ctrl + C` no terminal onde a aplicação está rodando e depois execute o seguinte comando:
