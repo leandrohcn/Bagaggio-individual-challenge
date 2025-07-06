@@ -60,7 +60,9 @@ Aqui estão alguns exemplos de endpoints que você pode testar:
 * **`PUT/produtos/{id}`**: Atualiza/Altera dados de um produto pelo ID.
 
 ## Testes Unitarios para os endpoints (caminhos felizes e tristes)
-Para visualizar os testes unitarios, vá na IDE de sua escolha, abra o projeto e siga o caminho **`src/test/java/com/baggaggio/individual_challenge/ControllerTest/ProdutoTest.java`**
+Para visualizar os testes unitarios, vá na IDE de sua escolha, abra o projeto e siga o caminho: **`src/test/java/com/baggaggio/individual_challenge/ControllerTest/ProdutoTest.java`**
+
+Execute a classe **`ProdutoTest`**
 
 Caso os testes nao estejam rodando por conta de algum erro, tente mudar na application.properties o **`"spring.datasource.url=jdbc:postgresql://localhost:5432/baggaggio"`**, para exatamente como está aqui.
 
