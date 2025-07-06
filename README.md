@@ -1,5 +1,5 @@
 # INDIVIDUAL-CHALLENGE
-Foram utilizados: (JAVA, SpringBoot, Docker e PostgreSQL).
+Foram utilizados: (JAVA 17, SpringBoot 3.5.3, Docker e PostgreSQL).
 
 SWAGGER para documentar a api: https://app.swaggerhub.com/apis/unirio-c08/Baggaggio-individual-challenge/1.0.0#/
 
